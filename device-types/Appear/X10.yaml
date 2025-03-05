@@ -6,7 +6,6 @@ part_number: XHW/CAB10AC750R01
 u_height: 1.0
 is_full_depth: true
 airflow: front-to-rear
-description: The Appear X10/X20 Platform is a dedicated solution for high speed video networking, enhanced IP security, video distribution and contribution.
 front_image: true
 rear_image: true
 power-ports:
@@ -31,3 +30,5 @@ module-bays:
     position: 2B
   - name: Slot 2C
     position: 2C
+description: 'The Appear X10/X20 Platform is a dedicated solution for high speed video networking, enhanced IP security, video distribution and contribution.'
+comments: This is a comment
