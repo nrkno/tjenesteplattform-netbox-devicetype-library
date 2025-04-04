@@ -1,0 +1,84 @@
+---
+manufacturer: Dell
+model: Connectrix DS-6610B
+slug: connectrix-ds-6610b
+u_height: 1.0
+is_full_depth: true
+front_image: false
+rear_image: false
+interfaces:
+  - name: '1'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '2'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '3'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '4'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '5'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '6'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '7'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '8'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '9'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '10'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '11'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '12'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '13'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '14'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '15'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '16'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '17'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '18'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '19'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '20'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '21'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '22'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '23'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: '24'
+    type: 16gfc-sfpp
+    mgmt_only: false
+  - name: Ethernet
+    type: 1000base-t
+    mgmt_only: true
