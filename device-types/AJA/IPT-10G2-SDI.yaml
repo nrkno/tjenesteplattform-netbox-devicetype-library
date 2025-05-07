@@ -1,0 +1,28 @@
+---
+manufacturer: AJA
+model: IPT-10G2-SDI
+slug: aja-ipt-10g2-sdi
+u_height: 0.5
+is_full_depth: false
+front_image: false
+rear_image: false
+interfaces:
+  - name: control lan
+    type: 1000base-t
+    mgmt_only: true
+  - name: Media lan 1
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: Media lan 2
+    type: 10gbase-x-sfpp
+    mgmt_only: false
+  - name: REF Out
+    type: other
+    mgmt_only: false
+  - name: SDI In
+    type: other
+    mgmt_only: false
+  - name: SDI Loop
+    type: other
+    mgmt_only: false
+description: Mediaconverter from SDI to ST2110
