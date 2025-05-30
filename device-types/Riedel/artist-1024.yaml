@@ -4,53 +4,30 @@ model: Artist 1024
 slug: riedel-artist-1024
 u_height: 2.0
 is_full_depth: true
-subdevice_role: parent
 airflow: front-to-rear
 weight: 6.3
 weight_unit: kg
 front_image: true
 rear_image: true
+subdevice_role: parent
 power-ports:
   - name: PSU 1
     type: iec-60320-c14
-    maximum_draw: 225
     allocated_draw: 225
+    maximum_draw: 225
   - name: PSU 2
     type: iec-60320-c14
-    maximum_draw: 225
     allocated_draw: 225
-device-bays:
-  - name: Bay 1
-    position: '1'
-    description: Subscriber Interface Cards (SIC)
-  - name: Bay 2
-    position: '2'
-    description: Subscriber Interface Cards (SIC)
-  - name: Bay 3
-    position: '3'
-    description: Primary Network Interface Cards (PNIC)
-  - name: Bay 4
-    position: '4'
-    description: Subscriber Interface Cards (SIC)
-  - name: Bay 5
-    position: '5'
-    description: Subscriber Interface Cards (SIC)
-  - name: Bay 6
-    position: '6'
-    description: Subscriber Interface Cards (SIC)
-  - name: Bay 7
-    position: '7'
-    description: Subscriber Interface Cards (SIC)
-  - name: Bay 8
-    position: '8'
-    description: Secondary Network Interface Cards (SNIC)
-  - name: Bay 9
-    position: '9'
-    description: Subscriber Interface Cards (SIC)
-  - name: Bay 10
-    position: '10'
-    description: Subscriber Interface Cards (SIC)
+    maximum_draw: 225
 module-bays:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
   - name: Bay A
     position: A
     description: For future use
@@ -63,3 +40,25 @@ module-bays:
   - name: Bay D
     position: D
     description: For future use
+  - null
+  - null
+device-bays:
+  - name: Bay 1
+    description: Subscriber Interface Cards (SIC)
+  - null
+  - name: Bay 2
+    description: Subscriber Interface Cards (SIC)
+  - name: Bay 3
+    description: Primary Network Interface Cards (PNIC)
+  - name: Bay 4
+    description: Subscriber Interface Cards (SIC)
+  - name: Bay 5
+    description: Subscriber Interface Cards (SIC)
+  - name: Bay 6
+    description: Subscriber Interface Cards (SIC)
+  - name: Bay 7
+    description: Subscriber Interface Cards (SIC)
+  - name: Bay 8
+    description: Secondary Network Interface Cards (SNIC)
+  - name: Bay 9
+    description: Subscriber Interface Cards (SIC)
