@@ -28,8 +28,6 @@ module-bays:
   - null
   - null
   - null
-  - null
-  - null
   - name: Bay A
     position: A
     description: For future use
