@@ -1,16 +1,16 @@
 ---
 manufacturer: Arkona
 model: Bladerunner 1RU Frame
-part_number: FR-1RU
 slug: arkona-bladerunner-fr-1ru
+part_number: FR-1RU
 u_height: 1.0
 is_full_depth: true
 airflow: front-to-rear
-subdevice_role: parent
-comments: Bladerunner is Arkonas product line of software applications and programmable acceleration cards which provide core infrastructure solutions for
-  Tier-1 live broadcast productions.
 weight: 5.2
 weight_unit: kg
+front_image: false
+rear_image: false
+subdevice_role: parent
 interfaces:
   - name: MGMT 1
     type: 1000base-t
@@ -25,8 +25,5 @@ module-bays:
     position: PSU 2
 device-bays:
   - name: Slot 1
-    position: '1'
     label: BOTTOM_LEFT
-  - name: Slot 2
-    position: '2'
-    label: BOTTOM_RIGHT
+comments: Bladerunner is Arkonas product line of software applications and programmable acceleration cards which provide core infrastructure solutions for Tier-1 live broadcast productions.
