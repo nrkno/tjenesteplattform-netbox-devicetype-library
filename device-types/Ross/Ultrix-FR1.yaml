@@ -10,6 +10,15 @@ weight: 4.0
 weight_unit: kg
 front_image: true
 rear_image: true
+power-ports:
+  - name: PWR1
+    type: dc-terminal
+  - name: PWR2
+    type: dc-terminal
+  - name: PWR3
+    type: dc-terminal
+  - name: PWR4
+    type: dc-terminal
 interfaces:
   - name: ENET 1
     type: 1000base-t
@@ -25,79 +34,70 @@ interfaces:
     type: other
   - name: slot2.AUXB-Out
     type: other
-  - name: slot2.in[1]
+  - name: 'slot2.in[10]'
     type: other
-  - name: slot2.out[1]
+  - name: 'slot2.in[11]'
     type: other
-  - name: slot2.in[2]
+  - name: 'slot2.in[12]'
     type: other
-  - name: slot2.out[2]
+  - name: 'slot2.in[13]'
     type: other
-  - name: slot2.in[3]
+  - name: 'slot2.in[14]'
     type: other
-  - name: slot2.out[3]
+  - name: 'slot2.in[15]'
     type: other
-  - name: slot2.in[4]
+  - name: 'slot2.in[16]'
     type: other
-  - name: slot2.out[4]
+  - name: 'slot2.in[1]'
     type: other
-  - name: slot2.in[5]
+  - name: 'slot2.in[2]'
     type: other
-  - name: slot2.out[5]
+  - name: 'slot2.in[3]'
     type: other
-  - name: slot2.in[6]
+  - name: 'slot2.in[4]'
     type: other
-  - name: slot2.out[6]
+  - name: 'slot2.in[5]'
     type: other
-  - name: slot2.in[7]
+  - name: 'slot2.in[6]'
     type: other
-  - name: slot2.out[7]
+  - name: 'slot2.in[7]'
     type: other
-  - name: slot2.in[8]
+  - name: 'slot2.in[8]'
     type: other
-  - name: slot2.out[8]
+  - name: 'slot2.in[9]'
     type: other
-  - name: slot2.in[9]
+  - name: 'slot2.out[10]'
     type: other
-  - name: slot2.out[9]
+  - name: 'slot2.out[11]'
     type: other
-  - name: slot2.in[10]
+  - name: 'slot2.out[12]'
     type: other
-  - name: slot2.out[10]
+  - name: 'slot2.out[13]'
     type: other
-  - name: slot2.in[11]
+  - name: 'slot2.out[14]'
     type: other
-  - name: slot2.out[11]
+  - name: 'slot2.out[15]'
     type: other
-  - name: slot2.in[12]
+  - name: 'slot2.out[16]'
     type: other
-  - name: slot2.out[12]
+  - name: 'slot2.out[1]'
     type: other
-  - name: slot2.in[13]
+  - name: 'slot2.out[2]'
     type: other
-  - name: slot2.out[13]
+  - name: 'slot2.out[3]'
     type: other
-  - name: slot2.in[14]
+  - name: 'slot2.out[4]'
     type: other
-  - name: slot2.out[14]
+  - name: 'slot2.out[5]'
     type: other
-  - name: slot2.in[15]
+  - name: 'slot2.out[6]'
     type: other
-  - name: slot2.out[15]
+  - name: 'slot2.out[7]'
     type: other
-  - name: slot2.in[16]
+  - name: 'slot2.out[8]'
     type: other
-  - name: slot2.out[16]
+  - name: 'slot2.out[9]'
     type: other
 module-bays:
   - name: Slot 1
     position: '1'
-power-ports:
-  - name: PWR1
-    type: dc-terminal
-  - name: PWR2
-    type: dc-terminal
-  - name: PWR3
-    type: dc-terminal
-  - name: PWR4
-    type: dc-terminal
