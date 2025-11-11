@@ -1,11 +1,10 @@
 ---
 manufacturer: Appear
 model: X20
-slug: appear-x20
+slug: appeartv-x20
 u_height: 2.0
 is_full_depth: true
 airflow: front-to-rear
-description: The Appear X10/X20 Platform is a dedicated solution for high speed video networking, enhanced IP security, video distribution and contribution.
 front_image: true
 rear_image: true
 power-ports:
@@ -20,6 +19,16 @@ module-bays:
     position: '1'
   - name: Control Slot 2
     position: '2'
+  - name: Slot 10
+    position: '10'
+  - name: Slot 11
+    position: '11'
+  - name: Slot 12
+    position: '12'
+  - name: Slot 13
+    position: '13'
+  - name: Slot 14
+    position: '14'
   - name: Slot 3
     position: '3'
   - name: Slot 4
@@ -34,13 +43,4 @@ module-bays:
     position: '8'
   - name: Slot 9
     position: '9'
-  - name: Slot 10
-    position: '10'
-  - name: Slot 11
-    position: '11'
-  - name: Slot 12
-    position: '12'
-  - name: Slot 13
-    position: '13'
-  - name: Slot 14
-    position: '14'
+description: 'The Appear X10/X20 Platform is a dedicated solution for high speed video networking, enhanced IP security, video distribution and contribution.'
