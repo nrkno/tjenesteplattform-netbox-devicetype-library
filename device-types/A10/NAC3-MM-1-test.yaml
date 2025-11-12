@@ -1,0 +1,13 @@
+---
+manufacturer: A10
+model: NAC3-MM-1 test
+slug: nac3-mm-1-test
+u_height: 1.0
+is_full_depth: true
+front_image: false
+rear_image: false
+interfaces:
+  - name: test
+    type: other
+    mgmt_only: false
+description: powerCON-skjøtestykke
